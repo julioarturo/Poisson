@@ -23,7 +23,7 @@ public class javaRandom {
         m = leer.nextInt();
         for (int i = 0; i < m; i++) {
             n = getPoisson(lambda);
-            System.out.println(i +"-  " + n);
+            System.out.println(i+1 +"-  " + n);
         }
     }
 
